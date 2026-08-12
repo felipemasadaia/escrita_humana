@@ -22,37 +22,55 @@ em inglês e chegaram com sotaque. Outra parte é nossa mesmo, herdada da redaç
 de LinkedIn: o rodízio de sinônimos para "não repetir palavra", o "vale ressaltar", o gerundismo,
 o "e é sobre isso" no fim.
 
+## Baixar
+
+**[⬇️ escrita-humana.zip](https://github.com/felipemasadaia/escrita_humana/raw/main/escrita-humana.zip)** — 11 KB, é o arquivo que o Claude pede no upload.
+
 ## Como instalar
 
-### No Claude (claude.ai, app do celular, app de computador)
+### Claude no navegador, no celular ou no computador
 
-O claude.ai não instala skill por URL de repositório — ele lê um `.zip`. Baixe o
-[`escrita-humana.zip`](escrita-humana.zip) daqui e vá em **Configurações → Capabilities →
-Skills → + → Create skill**, subindo o arquivo. Depois é só deixar a skill ligada na lista.
+O Claude não instala skill por URL de repositório: ele lê um `.zip`. Baixe o arquivo do link
+acima e vá em **Configurações → Capabilities → Skills → `+` → Create skill**, subindo o arquivo.
+Depois deixe a skill ligada na lista.
 
 Duas condições: **Code execution** precisa estar ligado em Configurações → Capabilities, e o
-recurso está disponível nos planos Pro, Max, Team e Enterprise.
+recurso existe nos planos Pro, Max, Team e Enterprise.
 
-O `.zip` tem a pasta `escrita-humana/` na raiz, com `SKILL.md` e `eval.md` dentro — que é o
-formato que o upload exige. Se você editar a skill, refaça o arquivo com:
+### Claude Code
 
-```sh
-cd skills && zip -r ../escrita-humana.zip escrita-humana
-```
-
-### No Claude Code, ChatGPT, Codex e outros agentes
-
-Cole isto no agente que você usa:
+Cole isto na conversa:
 
 ```text
 Instale a skill /escrita-humana globalmente a partir de https://github.com/felipemasadaia/escrita_humana
 ```
 
-Ou pelo `npx`:
+Ou pelo terminal:
 
 ```sh
 npx skills add felipemasadaia/escrita_humana --skill escrita-humana --global --yes
 ```
+
+### Codex e outros agentes de terminal
+
+O mesmo `npx` acima. O instalador é agnóstico de agente — ele grava a pasta da skill no lugar que
+o seu agente lê.
+
+### ChatGPT
+
+O ChatGPT não tem instalação de skill. O que funciona é abrir um **Projeto**, colar o conteúdo de
+[`skills/escrita-humana/SKILL.md`](skills/escrita-humana/SKILL.md) nas instruções dele e conversar
+dentro do projeto. Perde a checagem automática do `eval.md`; para recuperá-la, cole também o
+`eval.md` e peça que ele confira o resultado contra a lista antes de responder.
+
+### Refazer o `.zip` depois de editar
+
+```sh
+cd skills && zip -r ../escrita-humana.zip escrita-humana
+```
+
+A pasta `escrita-humana/` precisa ficar na raiz do arquivo, com `SKILL.md` e `eval.md` dentro. É o
+formato que o upload exige.
 
 ## Como usar
 
