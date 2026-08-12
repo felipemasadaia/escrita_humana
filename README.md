@@ -24,7 +24,25 @@ o "e é sobre isso" no fim.
 
 ## Como instalar
 
-O jeito mais fácil é colar isto no Claude Code, no ChatGPT, no Codex ou no agente que você usa:
+### No Claude (claude.ai, app do celular, app de computador)
+
+O claude.ai não instala skill por URL de repositório — ele lê um `.zip`. Baixe o
+[`escrita-humana.zip`](escrita-humana.zip) daqui e vá em **Configurações → Capabilities →
+Skills → + → Create skill**, subindo o arquivo. Depois é só deixar a skill ligada na lista.
+
+Duas condições: **Code execution** precisa estar ligado em Configurações → Capabilities, e o
+recurso está disponível nos planos Pro, Max, Team e Enterprise.
+
+O `.zip` tem a pasta `escrita-humana/` na raiz, com `SKILL.md` e `eval.md` dentro — que é o
+formato que o upload exige. Se você editar a skill, refaça o arquivo com:
+
+```sh
+cd skills && zip -r ../escrita-humana.zip escrita-humana
+```
+
+### No Claude Code, ChatGPT, Codex e outros agentes
+
+Cole isto no agente que você usa:
 
 ```text
 Instale a skill /escrita-humana globalmente a partir de https://github.com/felipemasadaia/escrita_humana
