@@ -1,18 +1,19 @@
 # Como instalar
 
-Escolha onde você usa. O Claude no navegador e no celular é o caminho mais curto.
+**É um arquivo só: [`escrita-humana.md`](escrita-humana.md).** Não existe segundo arquivo para
+instalar, não existe zip, não tem o que escolher.
+
+Para baixar: abra o arquivo aqui no GitHub e clique no botão de download, no canto direito. Ou
+clique em **Raw**, depois salve a página.
 
 ---
 
 ## Claude — navegador, celular, computador
 
-**Baixe um arquivo e suba nas configurações.** Dois cliques.
-
-1. Baixe **[escrita-humana.md](escrita-humana.md)** — clique no arquivo, depois no botão de
-   download (a setinha, no canto direito).
+1. Baixe o [`escrita-humana.md`](escrita-humana.md).
 2. No Claude, abra **Configurações → Capabilities → Skills**.
 3. Clique em **`+`** e depois em **Create skill**.
-4. Arraste o `escrita-humana.md` para a área de upload.
+4. Arraste o arquivo para a área de upload.
 5. Espere a verificação de segurança, que leva um ou dois minutos.
 6. Deixe a chave da skill ligada na lista.
 
@@ -23,18 +24,6 @@ skill sozinho.
 
 - **Code execution** ligado em Configurações → Capabilities.
 - Plano **Pro, Max, Team ou Enterprise**. No plano gratuito não existe.
-
-### Se der erro no upload
-
-**"SKILL.md must start with YAML frontmatter (---)"** — o upload não achou o cabeçalho do
-arquivo. Quase sempre é o `.zip` que está com uma pasta em volta do `SKILL.md`. Use o
-**`escrita-humana.md`**, que não tem pasta nenhuma e não tem como dar esse erro.
-
-**Prefere o zip?** Use o **[escrita-humana.zip](escrita-humana.zip)** daqui, que tem o `SKILL.md`
-na raiz. Não monte o seu próprio zipando a pasta `escrita-humana/` — é isso que quebra.
-
-**O arquivo baixou como página HTML** — você clicou com o botão direito e salvou a página do
-GitHub. Abra o arquivo no GitHub e use o botão de download, ou clique em **Raw** e salve dali.
 
 ---
 
@@ -52,15 +41,15 @@ Ou, pelo terminal:
 npx skills add felipemasadaia/escrita_humana --skill escrita-humana --global --yes
 ```
 
-Para instalar só num projeto, copie a pasta à mão:
+À mão também funciona:
 
 ```sh
 git clone https://github.com/felipemasadaia/escrita_humana.git
-mkdir -p .claude/skills
-cp -r escrita_humana/skills/escrita-humana .claude/skills/
+mkdir -p ~/.claude/skills
+cp -r escrita_humana/skills/escrita-humana ~/.claude/skills/
 ```
 
-Trocando `.claude/skills` por `~/.claude/skills`, ela passa a valer em todos os seus projetos.
+Trocando `~/.claude/skills` por `.claude/skills`, ela vale só naquele projeto.
 
 ---
 
@@ -75,7 +64,7 @@ lugar que o seu agente lê.
 
 O ChatGPT não instala skill; o formato é do Claude. O conteúdo, porém, é só texto.
 
-**Para usar sempre:** crie um **Projeto**, anexe o **[escrita-humana.md](escrita-humana.md)** como
+**Para usar sempre:** crie um **Projeto**, anexe o [`escrita-humana.md`](escrita-humana.md) como
 arquivo e ponha isto nas instruções do projeto:
 
 ```text
@@ -83,7 +72,7 @@ Sempre que eu pedir para editar um texto, siga o escrita-humana.md anexado e con
 resultado contra a seção Checagem antes de me responder.
 ```
 
-⚠️ **Anexe como arquivo, não cole no campo de instruções** — são mais de 23 mil caracteres, e o
+⚠️ **Anexe como arquivo, não cole no campo de instruções** — são mais de 25 mil caracteres, e o
 campo não aceita esse tamanho.
 
 **Para usar uma vez só:** cole isto na conversa.
@@ -95,12 +84,31 @@ siga essas regras para editar o texto que eu mandar a seguir.
 
 ---
 
-## Qual arquivo é qual
+## Se der erro no upload
 
-| Arquivo | Para quê |
+**"SKILL.md must start with YAML frontmatter (---)"** — o upload não encontrou o cabeçalho. Duas
+causas: você subiu um zip com uma pasta em volta do arquivo, ou subiu outro arquivo por engano. O
+`escrita-humana.md` daqui não tem pasta e começa no cabeçalho — suba ele direto.
+
+**O arquivo baixou como página HTML** — você salvou a página do GitHub em vez do arquivo. Use o
+botão de download do GitHub, ou clique em **Raw** antes de salvar.
+
+**A opção "Skills" não aparece nas configurações** — falta ligar **Code execution**, ou o plano é
+o gratuito.
+
+---
+
+## Onde cada coisa mora
+
+| Caminho | O que é |
 | --- | --- |
-| `escrita-humana.md` | arquivo único, com a checagem embutida — serve para o Claude e para o ChatGPT |
-| `escrita-humana.zip` | mesmo conteúdo em dois arquivos, com o `SKILL.md` na raiz |
-| `skills/escrita-humana/` | a pasta original, que o Claude Code e o `npx` leem |
+| [`escrita-humana.md`](escrita-humana.md) | o arquivo para baixar e subir — regras e checagem juntas |
+| `skills/escrita-humana/SKILL.md` | o mesmo conteúdo, no formato de pasta que o `npx` e o Claude Code leem |
+| `exemplos/` | três textos para testar, com os padrões plantados e listados |
 
-Os três saem do mesmo lugar. Se você editar a skill, refaça os dois primeiros com `sh montar.sh`.
+Os dois primeiros são cópias do mesmo arquivo. Se editar a skill, edite
+`skills/escrita-humana/SKILL.md` e copie por cima do outro:
+
+```sh
+cp skills/escrita-humana/SKILL.md escrita-humana.md
+```

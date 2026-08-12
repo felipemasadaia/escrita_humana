@@ -5,10 +5,12 @@ escreveu.
 
 ## Instalar
 
+É **um arquivo só**, o mesmo para todo lugar: `escrita-humana.md`. As regras e a checagem estão
+juntas dentro dele.
+
 **No Claude, no navegador ou no celular:** baixe o
 **[escrita-humana.md](https://github.com/felipemasadaia/escrita_humana/raw/main/escrita-humana.md)**
-e suba em **Configurações → Capabilities → Skills → `+` → Create skill**. É um arquivo só, e é o
-caminho mais curto.
+e suba em **Configurações → Capabilities → Skills → `+` → Create skill**.
 
 **No Claude Code:** cole `Instale a skill /escrita-humana globalmente a partir de
 https://github.com/felipemasadaia/escrita_humana` na conversa.
@@ -97,10 +99,10 @@ estragaria diálogo.
 
 ## Como ela se corrige
 
-A skill tem duas partes. O `SKILL.md` edita; o `eval.md` é a lista de checagens que ela roda
-contra o próprio resultado antes de te devolver o texto. Se alguma checagem falha, ela conserta e
-confere de novo. No arquivo único, `escrita-humana.md`, as duas partes vêm juntas — a lista está
-lá no fim, como seção **Checagem**.
+O arquivo termina numa seção **Checagem**: 38 perguntas de passou ou falhou que a skill roda
+contra o próprio resultado antes de te devolver o texto. Se alguma falha, ela conserta e confere
+de novo. É o que segura o exagero — quatro das perguntas existem só para impedir que ela corte
+demais.
 
 ## Créditos
 

@@ -14,7 +14,7 @@ tradução disfarçada — o padrão nasceu em inglês e chegou aqui com sotaque
 mesmo: a redação escolar, o vocabulário de palestra e o post de LinkedIn. Este arquivo cobre os
 dois.
 
-## Duas funções
+## Três funções
 
 **Editar (o padrão).** A pessoa manda um rascunho para consertar. Faça a menor edição que
 resolve, seguindo as regras abaixo, e devolva o texto editado mais uma seção **O que mudou**.
@@ -28,6 +28,11 @@ Falso positivo custa caro aqui: uma lista de dez achados num texto bem escrito e
 ignorar a skill. Antes de listar qualquer coisa, passe pelo princípio "padrão usado de propósito
 não é padrão de IA". Se o texto estiver limpo, diga que está limpo — é uma resposta legítima e
 frequente.
+
+**Gerar slop.** A pessoa pede um texto com o máximo de cara de IA possível, de propósito. Escreva
+empilhando os padrões desta lista sem economia. Serve para satirizar, para treinar o olho de
+quem vai revisar e para testar se a skill pega o próprio veneno. É o único caso em que as regras
+abaixo valem ao contrário.
 
 ## Antes de tudo, o gênero
 
@@ -256,6 +261,47 @@ português.
 o mesmo pediu" vira "o cliente ligou e pediu". Some com "no que tange", "outrossim", "conforme
 supracitado" e "venho por meio desta", a não ser que a peça seja mesmo um ofício.
 
+## Um exemplo
+
+O formato da resposta importa tanto quanto a edição: quem recebe precisa poder conferir cada
+corte, e recusar os que não concorda.
+
+**Rascunho:**
+
+> Você já parou para pensar em quanto tempo o seu time perde em reunião?
+>
+> Vou ser sincero: eu mergulhei fundo nessa conta e o que eu descobri foi um divisor de águas.
+>
+> Não é sobre ter menos reunião. É sobre ter a reunião certa.
+>
+> Especialistas afirmam que a maioria das empresas sofre com isso.
+>
+> Cortamos a semanal de status e passamos a mandar um resumo por escrito. A equipe ganhou seis
+> horas por semana.
+>
+> No fim, produtividade é sobre respeito ao tempo do outro.
+
+**Editado:**
+
+> Cortamos a reunião semanal de status e passamos a mandar um resumo por escrito. A equipe ganhou
+> seis horas por semana.
+
+**O que mudou**
+
+- Cortei a pergunta retórica de abertura e o "vou ser sincero" — o texto começa no que aconteceu.
+- Tirei "mergulhei fundo" e "divisor de águas".
+- Cortei o contraste binário ("Não é sobre X. É sobre Y") e a frase de efeito do fim: os dois
+  diziam a mesma coisa que as seis horas já dizem melhor.
+- As seis horas por semana ficaram, e viraram o texto inteiro. Era o único fato ali.
+
+**Perguntas**
+
+- "Especialistas afirmam que a maioria das empresas sofre com isso" — deixei de fora por não ter
+  fonte. Se você tem o estudo, devolvo a frase com a fonte nomeada.
+
+Repare no tamanho: sete parágrafos viraram um. Isso acontece quando só um deles carregava fato.
+Não é a régua normal — num texto com substância a edição tira pouco, e cortar assim seria defeito.
+
 ## Fluxo
 
 1. Leia o rascunho inteiro antes de editar.
@@ -263,15 +309,13 @@ supracitado" e "venho por meio desta", a não ser que a peça seja mesmo um ofí
 3. Identifique o ponto central e de 3 a 5 sinais de voz para preservar: vocabulário, cadência,
    franqueza, humor, dúvida, digressão. Guarde essa nota para você. Se não conseguir identificar
    o ponto central, pergunte.
-4. Se for um pedido de apontar, devolva o relatório descrito em **Duas funções** e pare.
+4. Se for um pedido de apontar, devolva o relatório descrito em **Três funções** e pare.
 5. Se for edição, faça as mudanças mínimas que resolvem e depois confira o texto editado contra
    a **Checagem** no fim deste arquivo, você mesmo.
 6. Se alguma checagem falhar, conserte e confira de novo.
 7. Devolva o texto editado inteiro e uma seção curta **O que mudou**. Se sobrou afirmação sem
    fonte, ou algum trecho que você não conseguiu resolver sem inventar, acrescente uma seção
    **Perguntas** com elas. Fechar o texto inventando a resposta é o pior desfecho possível.
-
----
 
 ## Checagem
 

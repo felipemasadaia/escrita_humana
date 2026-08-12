@@ -14,7 +14,7 @@ tradução disfarçada — o padrão nasceu em inglês e chegou aqui com sotaque
 mesmo: a redação escolar, o vocabulário de palestra e o post de LinkedIn. Este arquivo cobre os
 dois.
 
-## Duas funções
+## Três funções
 
 **Editar (o padrão).** A pessoa manda um rascunho para consertar. Faça a menor edição que
 resolve, seguindo as regras abaixo, e devolva o texto editado mais uma seção **O que mudou**.
@@ -28,6 +28,11 @@ Falso positivo custa caro aqui: uma lista de dez achados num texto bem escrito e
 ignorar a skill. Antes de listar qualquer coisa, passe pelo princípio "padrão usado de propósito
 não é padrão de IA". Se o texto estiver limpo, diga que está limpo — é uma resposta legítima e
 frequente.
+
+**Gerar slop.** A pessoa pede um texto com o máximo de cara de IA possível, de propósito. Escreva
+empilhando os padrões desta lista sem economia. Serve para satirizar, para treinar o olho de
+quem vai revisar e para testar se a skill pega o próprio veneno. É o único caso em que as regras
+abaixo valem ao contrário.
 
 ## Antes de tudo, o gênero
 
@@ -256,6 +261,47 @@ português.
 o mesmo pediu" vira "o cliente ligou e pediu". Some com "no que tange", "outrossim", "conforme
 supracitado" e "venho por meio desta", a não ser que a peça seja mesmo um ofício.
 
+## Um exemplo
+
+O formato da resposta importa tanto quanto a edição: quem recebe precisa poder conferir cada
+corte, e recusar os que não concorda.
+
+**Rascunho:**
+
+> Você já parou para pensar em quanto tempo o seu time perde em reunião?
+>
+> Vou ser sincero: eu mergulhei fundo nessa conta e o que eu descobri foi um divisor de águas.
+>
+> Não é sobre ter menos reunião. É sobre ter a reunião certa.
+>
+> Especialistas afirmam que a maioria das empresas sofre com isso.
+>
+> Cortamos a semanal de status e passamos a mandar um resumo por escrito. A equipe ganhou seis
+> horas por semana.
+>
+> No fim, produtividade é sobre respeito ao tempo do outro.
+
+**Editado:**
+
+> Cortamos a reunião semanal de status e passamos a mandar um resumo por escrito. A equipe ganhou
+> seis horas por semana.
+
+**O que mudou**
+
+- Cortei a pergunta retórica de abertura e o "vou ser sincero" — o texto começa no que aconteceu.
+- Tirei "mergulhei fundo" e "divisor de águas".
+- Cortei o contraste binário ("Não é sobre X. É sobre Y") e a frase de efeito do fim: os dois
+  diziam a mesma coisa que as seis horas já dizem melhor.
+- As seis horas por semana ficaram, e viraram o texto inteiro. Era o único fato ali.
+
+**Perguntas**
+
+- "Especialistas afirmam que a maioria das empresas sofre com isso" — deixei de fora por não ter
+  fonte. Se você tem o estudo, devolvo a frase com a fonte nomeada.
+
+Repare no tamanho: sete parágrafos viraram um. Isso acontece quando só um deles carregava fato.
+Não é a régua normal — num texto com substância a edição tira pouco, e cortar assim seria defeito.
+
 ## Fluxo
 
 1. Leia o rascunho inteiro antes de editar.
@@ -263,10 +309,100 @@ supracitado" e "venho por meio desta", a não ser que a peça seja mesmo um ofí
 3. Identifique o ponto central e de 3 a 5 sinais de voz para preservar: vocabulário, cadência,
    franqueza, humor, dúvida, digressão. Guarde essa nota para você. Se não conseguir identificar
    o ponto central, pergunte.
-4. Se for um pedido de apontar, devolva o relatório descrito em **Duas funções** e pare.
+4. Se for um pedido de apontar, devolva o relatório descrito em **Três funções** e pare.
 5. Se for edição, faça as mudanças mínimas que resolvem e depois confira o texto editado contra
-   o `eval.md`, você mesmo.
+   a **Checagem** no fim deste arquivo, você mesmo.
 6. Se alguma checagem falhar, conserte e confira de novo.
 7. Devolva o texto editado inteiro e uma seção curta **O que mudou**. Se sobrou afirmação sem
    fonte, ou algum trecho que você não conseguiu resolver sem inventar, acrescente uma seção
    **Perguntas** com elas. Fechar o texto inventando a resposta é o pior desfecho possível.
+
+## Checagem
+
+Use isto depois de editar. Responda cada item com passou ou falhou. Se alguma falhar, conserte o
+texto antes de devolver.
+
+Em pedidos de apontar, confira se a resposta nomeia cada padrão encontrado com a linha citada e um
+conserto curto, sem reescrever o rascunho.
+
+### Gênero e proporção
+
+1. O gênero da peça foi identificado, e as regras foram aplicadas com o peso que ele pede — sem
+   tratar negrito estrutural, lista e frase negativa de documento técnico como enfeite?
+2. Todo padrão cortado era piloto automático, e não uso intencional que carrega a tese, a
+   especificação ou o ritmo?
+3. Se o rascunho já estava limpo, ele foi devolvido quase intacto, com isso dito em voz alta, em
+   vez de receber edição para mostrar serviço?
+4. O nível de tratamento de quem escreveu foi mantido — sem trocar "Prezados" por "Oi, pessoal"
+   nem informalizar por conta própria?
+
+### Princípios de edição
+
+1. A edição preserva o ponto de quem escreveu, sem acrescentar afirmação, exemplo, número, citação
+   ou opinião?
+2. Preserva o vocabulário, a cadência, a franqueza, o humor, a dúvida, as digressões e o grau de
+   acabamento característicos?
+3. Deixou em paz as frases humanas boas, em vez de reescrevê-las por uniformidade ou deixar todo
+   parágrafo igualmente arrumadinho?
+4. O tanto que foi cortado é proporcional ao tanto de enrolação que existia, sem compressão
+   agressiva que leve o caráter junto?
+5. O texto começa pelo que o leitor precisa, mantendo a preparação pessoal que cria contexto,
+   tensão ou caráter?
+6. As conclusões foram antecipadas onde isso ajuda, sem forçar todas as partes na mesma forma?
+7. As frases se pagam, com fato concreto, detalhe protegido e verbo direto onde o rascunho
+   permite?
+8. Toda frase genérica passa no teste da portabilidade, ou foi cortada, ou virou específica deste
+   assunto?
+9. O texto usa voz ativa com sujeito humano onde dá?
+10. A edição manteve o corte, a opinião forte e a estrutura de quem escreveu, a menos que a
+    estrutura estivesse atrapalhando?
+11. As frases genuinamente emboladas foram desemboladas, com a cadência falada, os fragmentos e as
+    mudanças de ritmo intactos?
+12. O português é o falado — "usar" e não "utilizar", "fazer" e não "realizar", "ter" e não
+    "possuir" — sem formalidade postiça nem gerundismo?
+
+### Palavras
+
+1. Saíram as palavras banidas, as frases de enchimento, os advérbios vazios e as afirmações
+   infladas, menos quando citadas como exemplo?
+2. Os conectivos de piloto automático ("além disso", "dessa forma", "sendo assim") só ficaram onde
+   marcam contraste ou consequência de verdade?
+3. A palavra certa se repete, em vez de virar rodízio de sinônimos?
+
+### Padrões
+
+1. Saíram os contrastes binários, as listagens negativas, as perguntas retóricas de abertura, as
+   perguntas autorrespondidas e o pigarro de abertura?
+2. Foram consertados o falso insight, a revelação com dois-pontos, a análise superficial de
+   gerúndio, o verbo forte de mentira, a fragmentação dramática e o ritmo robótico?
+3. A inflação de importância e a atribuição vaga viraram fato simples e fonte nomeada, ou foram
+   sinalizadas para a pessoa quando não havia fonte?
+4. Saiu o metadiscurso interpretativo, incluindo o comentário sobre o próprio texto, a instrução
+   ao leitor, o marcador de ênfase e o "ou seja" redundante?
+5. As frases de efeito do fim foram apagadas, em vez de reescritas numa metáfora melhor?
+6. Os fechos-resumo foram cortados, de modo que o texto termina num ponto concreto, numa conclusão
+   prática ou no próximo passo?
+7. O pedido de engajamento reflexo saiu, e só ficou pergunta que a pessoa quer mesmo que
+   respondam?
+8. Saiu o enfeite de formatação — emoji em título, negrito decorativo, lista que devia ser prosa,
+   subtítulo para seção minúscula — com o negrito estrutural preservado?
+9. Depois de dois-pontos a frase segue em minúscula, a menos que gramática, nome próprio, título
+   ou código peçam outra coisa?
+10. Os travessões foram julgados pela função e não pela contagem: ficaram os que abrem fala ou
+    isolam aposto, saíram os que não isolam nada?
+11. Os decalques do inglês foram trocados pelo que se diz em português?
+
+### Leitura final
+
+1. A edição foi conferida direto contra este arquivo, sem precisar de um agente separado para
+   editar e outro para avaliar?
+2. O texto evita simetria robótica, formas de frase repetidas e fragmentos empilhados?
+3. Quem escreveu reconheceria o texto editado como sendo dele?
+4. O texto soaria natural se fosse lido em voz alta para um colega esperto?
+5. A resposta final traz o texto editado inteiro e uma seção curta **O que mudou**?
+6. Toda afirmação sem fonte, e todo trecho que não dava para resolver sem inventar, foi para a
+   seção **Perguntas** em vez de ser fechado por conta própria?
+7. Em pedidos de apontar, a resposta nomeia cada padrão com a linha citada e um conserto curto,
+   sem reescrever, sem dar nota e sem afirmar que uma IA escreveu?
+8. Em pedidos de apontar num texto bem escrito, a resposta diz que está limpo em vez de encher a
+   lista com achados fracos?
