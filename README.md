@@ -58,7 +58,7 @@ escreveu — detector de IA chuta, padrão nomeado é prova que você confere so
 
 ## O que ela pega
 
-Mais de 20 padrões, entre eles:
+Os 22 padrões, entre eles:
 
 | Padrão | Exemplo |
 | --- | --- |
@@ -99,7 +99,7 @@ estragaria diálogo.
 
 ## Como ela se corrige
 
-O arquivo termina numa seção **Checagem**: 38 perguntas de passou ou falhou que a skill roda
+O arquivo termina numa seção **Checagem**: 35 perguntas de passou ou falhou que a skill roda
 contra o próprio resultado antes de te devolver o texto. Se alguma falha, ela conserta e confere
 de novo. É o que segura o exagero — quatro das perguntas existem só para impedir que ela corte
 demais.
