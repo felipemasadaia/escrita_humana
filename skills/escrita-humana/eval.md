@@ -6,6 +6,17 @@ texto antes de devolver.
 Em pedidos de apontar, confira se a resposta nomeia cada padrão encontrado com a linha citada e um
 conserto curto, sem reescrever o rascunho.
 
+## Gênero e proporção
+
+1. O gênero da peça foi identificado, e as regras foram aplicadas com o peso que ele pede — sem
+   tratar negrito estrutural, lista e frase negativa de documento técnico como enfeite?
+2. Todo padrão cortado era piloto automático, e não uso intencional que carrega a tese, a
+   especificação ou o ritmo?
+3. Se o rascunho já estava limpo, ele foi devolvido quase intacto, com isso dito em voz alta, em
+   vez de receber edição para mostrar serviço?
+4. O nível de tratamento de quem escreveu foi mantido — sem trocar "Prezados" por "Oi, pessoal"
+   nem informalizar por conta própria?
+
 ## Princípios de edição
 
 1. A edição preserva o ponto de quem escreveu, sem acrescentar afirmação, exemplo, número, citação
@@ -54,12 +65,12 @@ conserto curto, sem reescrever o rascunho.
    prática ou no próximo passo?
 7. O pedido de engajamento reflexo saiu, e só ficou pergunta que a pessoa quer mesmo que
    respondam?
-8. Saiu o enfeite de formatação: emoji em título, negrito decorativo, lista que devia ser prosa,
-   subtítulo para seção minúscula?
+8. Saiu o enfeite de formatação — emoji em título, negrito decorativo, lista que devia ser prosa,
+   subtítulo para seção minúscula — com o negrito estrutural preservado?
 9. Depois de dois-pontos a frase segue em minúscula, a menos que gramática, nome próprio, título
    ou código peçam outra coisa?
-10. O travessão de fala e de aposto ficou, e o travessão decorativo no meio da frase saiu, sem
-    aglomerados?
+10. Os travessões foram julgados pela função e não pela contagem: ficaram os que abrem fala ou
+    isolam aposto, saíram os que não isolam nada?
 11. Os decalques do inglês foram trocados pelo que se diz em português?
 
 ## Leitura final
@@ -70,5 +81,9 @@ conserto curto, sem reescrever o rascunho.
 3. Quem escreveu reconheceria o texto editado como sendo dele?
 4. O texto soaria natural se fosse lido em voz alta para um colega esperto?
 5. A resposta final traz o texto editado inteiro e uma seção curta **O que mudou**?
-6. Em pedidos de apontar, a resposta nomeia cada padrão com a linha citada e um conserto curto,
+6. Toda afirmação sem fonte, e todo trecho que não dava para resolver sem inventar, foi para a
+   seção **Perguntas** em vez de ser fechado por conta própria?
+7. Em pedidos de apontar, a resposta nomeia cada padrão com a linha citada e um conserto curto,
    sem reescrever, sem dar nota e sem afirmar que uma IA escreveu?
+8. Em pedidos de apontar num texto bem escrito, a resposta diz que está limpo em vez de encher a
+   lista com achados fracos?

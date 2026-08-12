@@ -25,6 +25,29 @@ Nomeie cada padrão deste arquivo que aparecer, cite a linha e diga o conserto e
 Não reescreva, não dê nota ao texto e não chute se foi uma IA que escreveu. Detector de IA chuta.
 Padrão nomeado é prova que a pessoa pode conferir sozinha. No fim, ofereça editar.
 
+Falso positivo custa caro aqui: uma lista de dez achados num texto bem escrito ensina a pessoa a
+ignorar a skill. Antes de listar qualquer coisa, passe pelo princípio "padrão usado de propósito
+não é padrão de IA". Se o texto estiver limpo, diga que está limpo — é uma resposta legítima e
+frequente.
+
+## Antes de tudo, o gênero
+
+Este arquivo foi escrito para texto que uma pessoa assina. Antes de cortar qualquer coisa, saiba
+o que a peça é — as regras abaixo mudam de peso conforme o gênero, e ignorar isso é a forma mais
+fácil de estragar um texto bom.
+
+- **Post, newsletter, ensaio, página de produto, email pessoal.** Vale tudo o que está aqui.
+- **Documento técnico, spec, README, nota de decisão, documentação interna.** O negrito costuma
+  ser estrutural e não enfeite. A lista costuma ser a forma certa. A frase negativa — "não é
+  acervo, não tem scroll infinito" — costuma ser especificação, não retórica. O paralelismo
+  costuma ser a regra que a equipe decora. Corte a enrolação e mantenha a estrutura.
+- **Contrato, petição, ofício, comunicado regulatório, política.** O registro formal ali é
+  exigência, não pretensão, e "venho por meio desta" pode ser mesmo o que a peça pede. Avise a
+  pessoa de que esta skill vai brigar com o gênero e pergunte se ela quer mesmo seguir, em vez de
+  informalizar o texto por conta própria.
+
+Se não der para saber o gênero pelo texto, pergunte antes de editar.
+
 ## O que perguntar
 
 Se a pessoa não mandou o rascunho, peça que cole.
@@ -44,6 +67,19 @@ de ler.
 - **Faça a menor edição que resolve.** Conserte padrões de IA, erros, repetição e trechos
   confusos. Deixe em paz as frases humanas boas. Um rascunho tosco com voz própria continua
   soando como a mesma pessoa depois da edição.
+- **Padrão usado de propósito não é padrão de IA.** O que denuncia a máquina é o piloto
+  automático: o mesmo movimento repetido, vazio, em toda virada de parágrafo. Um contraste
+  binário que carrega a tese da peça, uma listagem negativa que é especificação, um fragmento que
+  marca o ritmo — isso é estilo, e fica. Antes de cortar qualquer padrão desta lista, faça duas
+  perguntas: ele se repete no texto, ou aparece uma vez só? Se eu apagar, perco informação? "Uma
+  vez só" e "perco informação" significam deixar como está.
+- **Rascunho limpo não precisa de edição.** Se o texto não tem os padrões desta lista, diga isso
+  e devolva o original com as poucas correções que couberem, ou com nenhuma. Editor que precisa
+  mostrar serviço estraga texto bom.
+- **Baixe a pretensão, não o registro.** O que sai é a formalidade que serve para parecer sério:
+  "venho por meio desta", "no que tange", "o mesmo" como pronome. O nível de tratamento é de quem
+  escreve — não troque "Prezados" por "Oi, pessoal", nem "você" por "tu", nem o contrário. Se o
+  registro parecer errado para o público, comente em **O que mudou** em vez de trocar.
 - **Comece pelo ponto quando a preparação não acrescenta nada.** Corte o pigarro genérico.
   Mantenha o comentário pessoal, a história ou a confissão quando eles criam contexto, tensão ou
   caráter.
@@ -163,8 +199,9 @@ parece", "O ponto principal aqui é", "Como podemos ver", "Perceba que", "Isso m
 ponto está claro, apague. Se não está, troque por fato ou apoio que já exista no material.
 
 **Atribuição vaga.** "Especialistas afirmam", "estudos mostram", "pesquisas apontam", "dados do
-mercado indicam", "dizem que", "todo mundo sabe". Nomeie a fonte ou corte a afirmação. Se a
-pessoa não tem fonte, pergunte — nunca invente uma.
+mercado indicam", "dizem que", "todo mundo sabe". Nomeie a fonte ou corte a afirmação. Nunca
+invente uma. Se você já está editando, não decida sozinho: deixe a afirmação onde está, marque-a
+e leve a pergunta para a seção **Perguntas** no fim da resposta.
 
 **Verbo forte de mentira.** "Atua como", "se configura como", "se apresenta como", "vem se
 consolidando como", "desempenha um papel central". Prefira "é" e "tem" quando forem mais claros.
@@ -198,15 +235,17 @@ que precisa ler", "Salva esse post", "Bora?". Corte quando for tique de fim de t
 quando houver uma pergunta de verdade, dirigida a alguém específico, que a pessoa realmente quer
 que respondam.
 
-**Enfeite de formatação.** Emoji em título e em bullet, negrito espalhado no meio da frase,
-lista onde duas frases de prosa leem melhor, subtítulo para uma seção de duas frases, numeração
-de "3 aprendizados" quando são só três parágrafos. A formatação segue o conteúdo, não decora.
+**Enfeite de formatação.** Emoji em título e em bullet, negrito decorativo espalhado no meio da
+frase, lista onde duas frases de prosa leem melhor, subtítulo para uma seção de duas frases,
+numeração de "3 aprendizados" quando são só três parágrafos. Negrito estrutural fica: o que marca
+o termo que a peça define, o rótulo que abre uma linha ou a regra que ninguém pode perder de
+vista. A formatação segue o conteúdo, não decora.
 
-**Travessão decorativo.** Em português o travessão é legítimo — ele abre fala e isola aposto, e
-esse uso fica. O que sai é o travessão usado como muleta de ritmo no meio da frase, quase sempre
-decalcado do inglês, e ainda mais quando aparece três vezes no mesmo parágrafo. Em texto curto,
-prefira vírgula, ponto ou parênteses. Em texto longo, um ou dois quando ganham claramente das
-alternativas. Desfaça os aglomerados.
+**Travessão decorativo.** Em português o travessão é legítimo, e mais do que em inglês: abre
+fala, isola aposto e encaixa a ressalva que a pessoa faria falando. Esse uso fica. O teste é
+funcional, não numérico — não conte travessões. Sai o que não isola nada: o travessão no lugar de
+uma vírgula qualquer, o que só cria pausa dramática antes da última palavra, e o aglomerado de
+três ou mais no mesmo parágrafo em que nenhum deles abre fala nem isola aposto.
 
 **Decalque do inglês.** "No final do dia" (at the end of the day), "aqui está o que", "deixa eu
 ser claro", "isso muda tudo", "não é sobre X, é sobre Y", "entregar valor", "endereçar o
@@ -221,11 +260,14 @@ supracitado" e "venho por meio desta", a não ser que a peça seja mesmo um ofí
 ## Fluxo
 
 1. Leia o rascunho inteiro antes de editar.
-2. Identifique o ponto central e de 3 a 5 sinais de voz para preservar: vocabulário, cadência,
+2. Descubra o gênero da peça e o que ele muda, conforme **Antes de tudo, o gênero**.
+3. Identifique o ponto central e de 3 a 5 sinais de voz para preservar: vocabulário, cadência,
    franqueza, humor, dúvida, digressão. Guarde essa nota para você. Se não conseguir identificar
    o ponto central, pergunte.
-3. Se for um pedido de apontar, devolva o relatório descrito em **Duas funções** e pare.
-4. Se for edição, faça as mudanças mínimas que resolvem e depois confira o texto editado contra
+4. Se for um pedido de apontar, devolva o relatório descrito em **Duas funções** e pare.
+5. Se for edição, faça as mudanças mínimas que resolvem e depois confira o texto editado contra
    o `eval.md`, você mesmo.
-5. Se alguma checagem falhar, conserte e confira de novo.
-6. Devolva o texto editado inteiro e uma seção curta **O que mudou**.
+6. Se alguma checagem falhar, conserte e confira de novo.
+7. Devolva o texto editado inteiro e uma seção curta **O que mudou**. Se sobrou afirmação sem
+   fonte, ou algum trecho que você não conseguiu resolver sem inventar, acrescente uma seção
+   **Perguntas** com elas. Fechar o texto inventando a resposta é o pior desfecho possível.
