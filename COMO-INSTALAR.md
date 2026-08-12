@@ -72,7 +72,7 @@ Sempre que eu pedir para editar um texto, siga o escrita-humana.md anexado e con
 resultado contra a seção Checagem antes de me responder.
 ```
 
-⚠️ **Anexe como arquivo, não cole no campo de instruções** — são mais de 25 mil caracteres, e o
+⚠️ **Anexe como arquivo, não cole no campo de instruções** — são quase 19 mil caracteres, e o
 campo não aceita esse tamanho.
 
 **Para usar uma vez só:** cole isto na conversa.

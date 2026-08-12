@@ -56,6 +56,15 @@ A skill tira os padrões, preserva a sua voz e lista o que mudou.
 Ela nomeia cada padrão que encontrou e cita a linha. Não dá nota ao texto e não chuta se uma IA
 escreveu — detector de IA chuta, padrão nomeado é prova que você confere sozinho.
 
+### Gerar slop de propósito
+
+```text
+/escrita-humana escreve isso com a maior cara de IA possível: (seu tema)
+```
+
+Ela empilha os padrões sem economia. Serve para satirizar e para testar se a skill pega o próprio
+veneno.
+
 ## O que ela pega
 
 Os 22 padrões, entre eles:
@@ -101,7 +110,7 @@ estragaria diálogo.
 
 O arquivo termina numa seção **Checagem**: 35 perguntas de passou ou falhou que a skill roda
 contra o próprio resultado antes de te devolver o texto. Se alguma falha, ela conserta e confere
-de novo. É o que segura o exagero — quatro das perguntas existem só para impedir que ela corte
+de novo. É o que segura o exagero — seis das perguntas existem só para impedir que ela corte
 demais.
 
 ## Créditos
