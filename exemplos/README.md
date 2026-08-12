@@ -1,7 +1,7 @@
 # Exemplos para testar
 
 Três textos de teste, do jeito que um modelo escreve em português. Cada um foi montado com
-padrões conhecidos, listados embaixo — dá para conferir se a skill pegou todos.
+padrões conhecidos, listados embaixo, então dá para conferir se a skill pegou todos.
 
 Para usar:
 

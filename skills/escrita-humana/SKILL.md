@@ -10,7 +10,7 @@ quem escreveu, e deixe o texto mais claro e mais vivo. Tire os padrões de IA se
 escrita com personalidade em prosa polida e genérica.
 
 Português não é inglês com outras palavras. Boa parte do que sai de um modelo em português é
-tradução disfarçada — o padrão nasceu em inglês e chegou aqui com sotaque. Outra parte é nossa
+tradução disfarçada: o padrão nasceu em inglês e chegou aqui com sotaque. Outra parte é nossa
 mesmo: a redação escolar, o vocabulário de palestra e o post de LinkedIn.
 
 ## Três funções
@@ -21,7 +21,7 @@ uma seção **Perguntas**.
 
 **Apontar.** A pessoa pergunta se o texto tem cara de IA, ou pede uma varredura sem reescrever.
 Nomeie cada padrão que aparecer, cite a linha, dê o conserto em poucas palavras. Não reescreva,
-não dê nota e não chute se foi uma IA que escreveu — detector chuta, padrão nomeado é prova que
+não dê nota e não chute se foi uma IA que escreveu. Detector chuta, padrão nomeado é prova que
 a pessoa confere. Ofereça editar no fim.
 
 Falso positivo custa caro: dez achados fracos num texto bom ensinam a pessoa a ignorar a skill.
@@ -36,7 +36,7 @@ Saiba o que a peça é antes de cortar. Ignorar isso é a forma mais fácil de e
 
 - **Post, newsletter, ensaio, página, email pessoal.** Vale tudo o que está aqui.
 - **Documento técnico, spec, README, nota de decisão.** O negrito costuma ser estrutural. A lista
-  costuma ser a forma certa. A frase negativa — "não é acervo, não tem scroll infinito" — costuma
+  costuma ser a forma certa. A frase negativa ("não é acervo, não tem scroll infinito") costuma
   ser especificação. O paralelismo costuma ser a regra que a equipe decora. Corte a enrolação e
   mantenha a estrutura.
 - **Contrato, petição, ofício, política.** O registro formal ali é exigência, não pretensão.
@@ -60,12 +60,12 @@ depois de ler.
   paz a frase humana boa. Rascunho tosco com voz própria continua soando como a mesma pessoa.
 - **Padrão de propósito não é padrão de IA.** O que denuncia a máquina é o piloto automático: o
   mesmo movimento, vazio, a cada virada de parágrafo. Contraste binário que carrega a tese,
-  listagem negativa que é especificação, fragmento que marca o ritmo — isso é estilo. Antes de
+  listagem negativa que é especificação, fragmento que marca o ritmo: isso é estilo. Antes de
   cortar qualquer padrão: ele se repete, ou aparece uma vez? Apagar perde informação? "Uma vez" e
   "perde informação" significam deixar quieto.
 - **Rascunho limpo não precisa de edição.** Diga isso e devolva quase intacto. Editor que precisa
   mostrar serviço estraga texto bom.
-- **Baixe a pretensão, não o registro.** Sai a formalidade que serve para parecer sério — "venho
+- **Baixe a pretensão, não o registro.** Sai a formalidade que serve para parecer sério: "venho
   por meio desta", "no que tange", "o mesmo" como pronome. O tratamento é de quem escreve: não
   troque "Prezados" por "Oi, pessoal", nem "você" por "tu". Se o registro parecer errado para o
   público, comente em **O que mudou**.
@@ -134,14 +134,14 @@ Diga Y direto: "A questão não é o modelo, é o eval" vira "O eval pesa mais q
 vinha depois dela.
 
 **Pigarro de abertura.** "Vou ser sincero", "Deixa eu ser claro", "Olha só", "Vamos combinar uma
-coisa". Diga o ponto. Se a admissão for real e específica, fica — sai o gesto vazio.
+coisa". Diga o ponto. Se a admissão for real e específica, fica; sai o gesto vazio.
 
 **Falso insight.** "O que ninguém te conta", "A parte que todo mundo pula", "Pouca gente fala
 sobre isso". Promove quem escreve a único especialista da sala. "A parte que todo mundo pula:
 distribuição é o fosso" vira "Distribuição é o fosso".
 
 **Revelação com dois-pontos.** "Spoiler: não funcionou." / "A melhor parte: ele aprende."
-Reescreva como frase comum — dois-pontos serve para lista, rótulo e citação, não para suspense.
+Reescreva como frase comum. Dois-pontos serve para lista, rótulo e citação, não para suspense.
 Depois de dois-pontos, minúscula, salvo gramática, nome próprio, título ou código.
 
 **Pergunta autorrespondida.** "Resultado?", "E o que aconteceu?", "O motivo?" com a resposta na
@@ -178,8 +178,8 @@ inteiras.
 **Ritmo robótico.** Parágrafo de uma linha empilhado até o fim, frases todas do mesmo tamanho,
 paralelismo forçado, três itens onde dois bastavam.
 
-**Frase de efeito no fim.** A última linha "profunda" que vira metáfora bonitinha ou tapa na mesa
-— "no fim, tecnologia é sobre pessoas". Não reescreva numa metáfora melhor, não preserve o ritmo:
+**Frase de efeito no fim.** A última linha "profunda" que vira metáfora bonitinha ou tapa na mesa,
+como "no fim, tecnologia é sobre pessoas". Não reescreva numa metáfora melhor, não preserve o ritmo:
 apague e termine na frase concreta mais clara que o rascunho já tem. Se faltar fechamento, ponha
 a conclusão simples ou o próximo passo.
 
@@ -193,11 +193,20 @@ post", "Bora?". Fica quando é pergunta de verdade que a pessoa quer que respond
 onde duas frases de prosa leem melhor, subtítulo para seção de duas frases. Negrito estrutural
 fica: o termo que a peça define, o rótulo que abre a linha, a regra que ninguém pode perder.
 
-**Travessão decorativo.** Em português o travessão é legítimo, mais que em inglês: abre fala,
-isola aposto, encaixa a ressalva que a pessoa faria falando. Esse uso fica, e o teste é
-funcional, não numérico — não conte travessões. Sai o que não isola nada: o travessão no lugar de
-uma vírgula qualquer, o que só cria pausa dramática antes da última palavra, e o aglomerado de
-três no mesmo parágrafo sem nenhum abrir fala ou isolar aposto.
+**Travessão.** Não use travessão. Nenhum, em lugar nenhum do texto editado. A regra é essa, e é
+mais dura do que a gramática exigiria: o travessão é legítimo em português, mas virou a marca
+registrada do texto de máquina, e o custo de parecer robô é maior do que o que ele acrescenta.
+
+Cada travessão vira outra coisa, conforme o que ele estava fazendo:
+
+- No lugar de vírgula, use a vírgula.
+- Isolando aposto ou ressalva, use vírgula dos dois lados, ou parênteses quando o aposto é longo.
+- Criando pausa antes da última palavra, corte a pausa e termine a frase.
+- Emendando duas orações independentes, use ponto e vírgula, ou separe em duas frases.
+- Abrindo fala em diálogo, use aspas: `"Vamos?", perguntou ele.`
+
+O mesmo vale para o travessão curto (–) e para o hífen usado como travessão ( - ). O hífen de
+palavra composta ("bem-vindo", "guarda-chuva") não é travessão e não muda.
 
 **Decalque do inglês.** "No final do dia", "aqui está o que", "deixa eu ser claro", "isso muda
 tudo", "não é sobre X, é sobre Y", "entregar valor", "endereçar o problema", "suportar" no
@@ -224,14 +233,14 @@ equipe ganhou seis horas por semana."*
 
 **O que mudou**
 
-- Cortei a pergunta retórica e o "vou ser sincero" — o texto começa no que aconteceu.
+- Cortei a pergunta retórica e o "vou ser sincero": o texto começa no que aconteceu.
 - Tirei "mergulhei fundo" e "divisor de águas".
 - Cortei o contraste binário e a frase de efeito do fim: diziam o que as seis horas já dizem.
 - As seis horas ficaram e viraram o texto inteiro. Era o único fato ali.
 
 **Perguntas**
 
-- "Especialistas afirmam que a maioria das empresas sofre com isso" — deixei de fora por não ter
+- "Especialistas afirmam que a maioria das empresas sofre com isso": deixei de fora por não ter
   fonte. Se você tem o estudo, devolvo a frase com a fonte nomeada.
 
 Sete parágrafos viraram um porque só um carregava fato. Não é a régua normal: num texto com
@@ -269,7 +278,7 @@ Depois de editar, responda passou ou falhou. Qualquer falha, conserte antes de d
 7. As frases humanas boas ficaram como estavam?
 8. O tanto cortado é proporcional ao tanto de enrolação que existia?
 9. A opinião forte, o palavrão e o humor de quem escreveu sobreviveram?
-10. A estrutura foi mantida, salvo quando atrapalhava — e a mudança foi explicada?
+10. A estrutura foi mantida, salvo quando atrapalhava, e a mudança foi explicada?
 11. A cadência falada, os fragmentos e as mudanças de ritmo sobreviveram, com só o que estava
     embolado desembolado?
 
@@ -279,7 +288,7 @@ Depois de editar, responda passou ou falhou. Qualquer falha, conserte antes de d
 13. As frases se pagam, com fato concreto, detalhe protegido e verbo direto?
 14. Toda frase genérica passa no teste da portabilidade, ou foi cortada, ou virou específica?
 15. Voz ativa com sujeito humano onde dá?
-16. O português é o falado — usar, fazer, ter — sem formalidade postiça nem gerundismo?
+16. O português é o falado (usar, fazer, ter), sem formalidade postiça nem gerundismo?
 
 **Palavras**
 
@@ -302,7 +311,8 @@ Depois de editar, responda passou ou falhou. Qualquer falha, conserte antes de d
 26. O pedido de engajamento reflexo saiu, ficando só pergunta que a pessoa quer que respondam?
 27. Saiu o enfeite de formatação, com o negrito estrutural preservado?
 28. Depois de dois-pontos, minúscula, salvo gramática, nome próprio, título ou código?
-29. Os travessões foram julgados pela função: ficaram os que abrem fala ou isolam aposto?
+29. O texto ficou sem nenhum travessão, com cada um trocado por vírgula, parênteses, ponto e
+    vírgula, ponto ou aspas de fala?
 30. Os decalques do inglês viraram português?
 
 **Leitura final**
@@ -312,4 +322,4 @@ Depois de editar, responda passou ou falhou. Qualquer falha, conserte antes de d
 33. Soaria natural lido em voz alta para um colega esperto?
 34. A resposta traz o texto inteiro, **O que mudou** e, quando havia, **Perguntas**?
 35. Em pedidos de apontar: cada padrão nomeado com a linha citada e um conserto curto, sem
-    reescrever, sem nota e sem afirmar autoria de IA — e "está limpo" quando for o caso?
+    reescrever, sem nota e sem afirmar autoria de IA, e "está limpo" quando for o caso?

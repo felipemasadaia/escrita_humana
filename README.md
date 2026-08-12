@@ -20,7 +20,7 @@ https://github.com/felipemasadaia/escrita_humana` na conversa.
 
 ## O problema
 
-Ficou fácil gerar texto limpo — e todo texto limpo saiu igual. Mesmo os melhores modelos continuam
+Ficou fácil gerar texto limpo, e todo texto limpo saiu igual. Mesmo os melhores modelos continuam
 produzindo linha assim:
 
 - "Você já parou para pensar…?"
@@ -32,7 +32,7 @@ E quando você usa uma IA para *editar*, ela costuma passar o rodo justamente no
 cadência, no humor e nas imperfeições que faziam o texto soar como você.
 
 Em português tem uma camada a mais. Boa parte do que sai de um modelo aqui é tradução disfarçada:
-"no final do dia", "deixa eu ser claro", "aqui está o que", "isso muda tudo" — padrões que nasceram
+"no final do dia", "deixa eu ser claro", "aqui está o que", "isso muda tudo": padrões que nasceram
 em inglês e chegaram com sotaque. Outra parte é nossa mesmo, herdada da redação escolar e do post
 de LinkedIn: o rodízio de sinônimos para "não repetir palavra", o "vale ressaltar", o gerundismo,
 o "e é sobre isso" no fim.
@@ -54,7 +54,7 @@ A skill tira os padrões, preserva a sua voz e lista o que mudou.
 ```
 
 Ela nomeia cada padrão que encontrou e cita a linha. Não dá nota ao texto e não chuta se uma IA
-escreveu — detector de IA chuta, padrão nomeado é prova que você confere sozinho.
+escreveu. Detector de IA chuta, padrão nomeado é prova que você confere sozinho.
 
 ### Gerar slop de propósito
 
@@ -86,7 +86,7 @@ Os 22 padrões, entre eles:
 | Frase de efeito no fim | "No fim, tecnologia é sobre pessoas." |
 | Fecho-resumo | "Em suma", "Em última análise" |
 | Pedido de engajamento reflexo | "Comenta aqui embaixo" |
-| Travessão decorativo | o travessão como muleta de ritmo |
+| Travessão | qualquer travessão, sem exceção |
 | Decalque do inglês | "no final do dia", "entregar valor" |
 | Formalidade postiça e gerundismo | "vou estar enviando", "o mesmo pediu" |
 
@@ -94,10 +94,11 @@ Mais a lista de palavras banidas (alavancar, potencializar, disruptivo, divisor 
 holístico, jornada, mergulhar fundo, acionável…), os advérbios vazios e os conectivos no piloto
 automático.
 
-O travessão tem tratamento próprio, e de propósito: em português ele é legítimo — abre fala e isola
-aposto, e nesse uso fica. O que sai é o travessão como muleta de ritmo no meio da frase, três vezes
-no mesmo parágrafo, quase sempre decalcado do inglês. Uma tradução literal da regra em inglês
-estragaria diálogo.
+O travessão tem tratamento próprio, e é a regra mais dura daqui: não sobra nenhum. Vírgula,
+parênteses, ponto e vírgula, ponto ou aspas de fala fazem o serviço, e a skill escolhe conforme o
+que o travessão estava fazendo na frase. É mais rígido do que a gramática pediria, porque o
+travessão é legítimo em português. A troca é consciente: ele virou a assinatura do texto de
+máquina, e parecer robô custa mais caro do que ele acrescenta.
 
 ## O que ela não faz
 
@@ -110,14 +111,14 @@ estragaria diálogo.
 
 O arquivo termina numa seção **Checagem**: 35 perguntas de passou ou falhou que a skill roda
 contra o próprio resultado antes de te devolver o texto. Se alguma falha, ela conserta e confere
-de novo. É o que segura o exagero — seis das perguntas existem só para impedir que ela corte
+de novo. É o que segura o exagero: seis das perguntas existem só para impedir que ela corte
 demais.
 
 ## Créditos
 
 Feita a partir da [`no-ai-slop`](https://github.com/petergyang/no-ai-slop), do
-[Peter Yang](https://github.com/petergyang), MIT. A estrutura — editar, apontar e gerar slop,
-princípios de edição, padrões nomeados e um eval que a skill roda contra si mesma — vem dela. Os padrões, as palavras e
+[Peter Yang](https://github.com/petergyang), MIT. A estrutura vem dela: editar, apontar e gerar
+slop, princípios de edição, padrões nomeados e um eval que a skill roda contra si mesma. Os padrões, as palavras e
 os exemplos foram reescritos para o português do Brasil, porque metade da lista original não existe
 aqui ("delve", "tapestry", "leverage") e metade da nossa não estava lá.
 
