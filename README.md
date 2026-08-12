@@ -107,8 +107,8 @@ demais.
 ## Créditos
 
 Feita a partir da [`no-ai-slop`](https://github.com/petergyang/no-ai-slop), do
-[Peter Yang](https://github.com/petergyang), MIT. A estrutura — duas funções, princípios de edição,
-padrões nomeados e um eval que a skill roda contra si mesma — vem dela. Os padrões, as palavras e
+[Peter Yang](https://github.com/petergyang), MIT. A estrutura — editar, apontar e gerar slop,
+princípios de edição, padrões nomeados e um eval que a skill roda contra si mesma — vem dela. Os padrões, as palavras e
 os exemplos foram reescritos para o português do Brasil, porque metade da lista original não existe
 aqui ("delve", "tapestry", "leverage") e metade da nossa não estava lá.
 
