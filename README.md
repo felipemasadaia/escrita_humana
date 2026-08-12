@@ -27,13 +27,13 @@ o "e é sobre isso" no fim.
 O jeito mais fácil é colar isto no Claude Code, no ChatGPT, no Codex ou no agente que você usa:
 
 ```text
-Instale a skill /escrita-humana globalmente a partir de https://github.com/felipemasadaia/escrita-humana
+Instale a skill /escrita-humana globalmente a partir de https://github.com/felipemasadaia/escrita_humana
 ```
 
 Ou pelo `npx`:
 
 ```sh
-npx skills add felipemasadaia/escrita-humana --skill escrita-humana --global --yes
+npx skills add felipemasadaia/escrita_humana --skill escrita-humana --global --yes
 ```
 
 ## Como usar
