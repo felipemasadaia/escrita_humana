@@ -3,6 +3,19 @@
 Tira mais de 20 padrões de escrita de IA de um texto em português sem achatar a voz de quem
 escreveu.
 
+## Instalar
+
+**No Claude, no navegador ou no celular:** baixe o
+**[escrita-humana.md](https://github.com/felipemasadaia/escrita_humana/raw/main/escrita-humana.md)**
+e suba em **Configurações → Capabilities → Skills → `+` → Create skill**. É um arquivo só, e é o
+caminho mais curto.
+
+**No Claude Code:** cole `Instale a skill /escrita-humana globalmente a partir de
+https://github.com/felipemasadaia/escrita_humana` na conversa.
+
+**Passo a passo com telas, ChatGPT, Codex e o que fazer se der erro no upload:**
+👉 **[COMO-INSTALAR.md](COMO-INSTALAR.md)**
+
 ## O problema
 
 Ficou fácil gerar texto limpo — e todo texto limpo saiu igual. Mesmo os melhores modelos continuam
@@ -21,56 +34,6 @@ Em português tem uma camada a mais. Boa parte do que sai de um modelo aqui é t
 em inglês e chegaram com sotaque. Outra parte é nossa mesmo, herdada da redação escolar e do post
 de LinkedIn: o rodízio de sinônimos para "não repetir palavra", o "vale ressaltar", o gerundismo,
 o "e é sobre isso" no fim.
-
-## Baixar
-
-**[⬇️ escrita-humana.zip](https://github.com/felipemasadaia/escrita_humana/raw/main/escrita-humana.zip)** — 11 KB, é o arquivo que o Claude pede no upload.
-
-## Como instalar
-
-### Claude no navegador, no celular ou no computador
-
-O Claude não instala skill por URL de repositório: ele lê um `.zip`. Baixe o arquivo do link
-acima e vá em **Configurações → Capabilities → Skills → `+` → Create skill**, subindo o arquivo.
-Depois deixe a skill ligada na lista.
-
-Duas condições: **Code execution** precisa estar ligado em Configurações → Capabilities, e o
-recurso existe nos planos Pro, Max, Team e Enterprise.
-
-### Claude Code
-
-Cole isto na conversa:
-
-```text
-Instale a skill /escrita-humana globalmente a partir de https://github.com/felipemasadaia/escrita_humana
-```
-
-Ou pelo terminal:
-
-```sh
-npx skills add felipemasadaia/escrita_humana --skill escrita-humana --global --yes
-```
-
-### Codex e outros agentes de terminal
-
-O mesmo `npx` acima. O instalador é agnóstico de agente — ele grava a pasta da skill no lugar que
-o seu agente lê.
-
-### ChatGPT
-
-O ChatGPT não tem instalação de skill. O que funciona é abrir um **Projeto**, colar o conteúdo de
-[`skills/escrita-humana/SKILL.md`](skills/escrita-humana/SKILL.md) nas instruções dele e conversar
-dentro do projeto. Perde a checagem automática do `eval.md`; para recuperá-la, cole também o
-`eval.md` e peça que ele confira o resultado contra a lista antes de responder.
-
-### Refazer o `.zip` depois de editar
-
-```sh
-cd skills && zip -r ../escrita-humana.zip escrita-humana
-```
-
-A pasta `escrita-humana/` precisa ficar na raiz do arquivo, com `SKILL.md` e `eval.md` dentro. É o
-formato que o upload exige.
 
 ## Como usar
 
@@ -134,9 +97,10 @@ estragaria diálogo.
 
 ## Como ela se corrige
 
-A skill tem dois arquivos. O `SKILL.md` edita; o `eval.md` é a lista de checagens que ela roda
+A skill tem duas partes. O `SKILL.md` edita; o `eval.md` é a lista de checagens que ela roda
 contra o próprio resultado antes de te devolver o texto. Se alguma checagem falha, ela conserta e
-confere de novo.
+confere de novo. No arquivo único, `escrita-humana.md`, as duas partes vêm juntas — a lista está
+lá no fim, como seção **Checagem**.
 
 ## Créditos
 
