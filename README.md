@@ -67,7 +67,7 @@ veneno.
 
 ## O que ela pega
 
-Os 22 padrões, entre eles:
+Os 23 padrões, entre eles:
 
 | Padrão | Exemplo |
 | --- | --- |
@@ -87,6 +87,7 @@ Os 22 padrões, entre eles:
 | Fecho-resumo | "Em suma", "Em última análise" |
 | Pedido de engajamento reflexo | "Comenta aqui embaixo" |
 | Travessão | qualquer travessão, sem exceção |
+| Emoji | qualquer emoji, sem exceção |
 | Decalque do inglês | "no final do dia", "entregar valor" |
 | Formalidade postiça e gerundismo | "vou estar enviando", "o mesmo pediu" |
 
@@ -98,7 +99,8 @@ O travessão tem tratamento próprio, e é a regra mais dura daqui: não sobra n
 parênteses, ponto e vírgula, ponto ou aspas de fala fazem o serviço, e a skill escolhe conforme o
 que o travessão estava fazendo na frase. É mais rígido do que a gramática pediria, porque o
 travessão é legítimo em português. A troca é consciente: ele virou a assinatura do texto de
-máquina, e parecer robô custa mais caro do que ele acrescenta.
+máquina, e parecer robô custa mais caro do que ele acrescenta. O emoji segue a mesma regra: não
+sobra nenhum, e a informação que ele carregava vira palavra.
 
 ## O que ela não faz
 
@@ -109,7 +111,7 @@ máquina, e parecer robô custa mais caro do que ele acrescenta.
 
 ## Como ela se corrige
 
-O arquivo termina numa seção **Checagem**: 35 perguntas de passou ou falhou que a skill roda
+O arquivo termina numa seção **Checagem**: 36 perguntas de passou ou falhou que a skill roda
 contra o próprio resultado antes de te devolver o texto. Se alguma falha, ela conserta e confere
 de novo. É o que segura o exagero: seis das perguntas existem só para impedir que ela corte
 demais.

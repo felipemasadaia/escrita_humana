@@ -189,9 +189,14 @@ que repete tudo. O leitor acabou de passar por ali.
 **Pedido de engajamento reflexo.** "E você, o que acha?", "Comenta aqui embaixo", "Salva esse
 post", "Bora?". Fica quando é pergunta de verdade que a pessoa quer que respondam.
 
-**Enfeite de formatação.** Emoji em título e bullet, negrito decorativo no meio da frase, lista
-onde duas frases de prosa leem melhor, subtítulo para seção de duas frases. Negrito estrutural
-fica: o termo que a peça define, o rótulo que abre a linha, a regra que ninguém pode perder.
+**Enfeite de formatação.** Negrito decorativo no meio da frase, lista onde duas frases de prosa
+leem melhor, subtítulo para seção de duas frases. Negrito estrutural fica: o termo que a peça
+define, o rótulo que abre a linha, a regra que ninguém pode perder.
+
+**Emoji.** Não use emoji. Nenhum, em lugar nenhum do texto editado: título, bullet, meio ou fim
+de frase. O foguete, a lâmpada e o check viraram farda de post de IA, e a palavra faz o mesmo
+serviço. Se o emoji carregava informação, escreva a informação; se era enfeite, apague. Se o
+rascunho usa emoji, tire também, e avise em **O que mudou**.
 
 **Travessão.** Não use travessão. Nenhum, em lugar nenhum do texto editado. A regra é essa, e é
 mais dura do que a gramática exigiria: o travessão é legítimo em português, mas virou a marca
@@ -313,13 +318,14 @@ Depois de editar, responda passou ou falhou. Qualquer falha, conserte antes de d
 28. Depois de dois-pontos, minúscula, salvo gramática, nome próprio, título ou código?
 29. O texto ficou sem nenhum travessão, com cada um trocado por vírgula, parênteses, ponto e
     vírgula, ponto ou aspas de fala?
-30. Os decalques do inglês viraram português?
+30. O texto ficou sem nenhum emoji, com a informação que algum carregava escrita em palavra?
+31. Os decalques do inglês viraram português?
 
 **Leitura final**
 
-31. O texto evita simetria robótica, formas de frase repetidas e fragmentos empilhados?
-32. Quem escreveu reconheceria o texto como seu?
-33. Soaria natural lido em voz alta para um colega esperto?
-34. A resposta traz o texto inteiro, **O que mudou** e, quando havia, **Perguntas**?
-35. Em pedidos de apontar: cada padrão nomeado com a linha citada e um conserto curto, sem
+32. O texto evita simetria robótica, formas de frase repetidas e fragmentos empilhados?
+33. Quem escreveu reconheceria o texto como seu?
+34. Soaria natural lido em voz alta para um colega esperto?
+35. A resposta traz o texto inteiro, **O que mudou** e, quando havia, **Perguntas**?
+36. Em pedidos de apontar: cada padrão nomeado com a linha citada e um conserto curto, sem
     reescrever, sem nota e sem afirmar autoria de IA, e "está limpo" quando for o caso?
